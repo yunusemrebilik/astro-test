@@ -2,9 +2,9 @@ backend:
   name: github
   repo: yunusemrebilik/astro-test
   branch: main
-  
-  base_url: https://stellular-genie-a16d1b.netlify.app
-  auth_endpoint: .netlify/auth
+  site_domain: astro-test-3jcw5et5n-yunus-emres-projects-80869c84.vercel.app
+  base_url: https://astro-test-3jcw5et5n-yunus-emres-projects-80869c84.vercel.app
+  auth_endpoint: oauth
 
 media_folder: "public/uploads"
 public_folder: "/uploads"

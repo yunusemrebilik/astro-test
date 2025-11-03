@@ -20,6 +20,9 @@ importers:
       astro:
         specifier: ^5.15.3
         version: 5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)
+      astro-decap-cms-oauth:
+        specifier: ^0.5.1
+        version: 0.5.1(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3))
       decap-cms-app:
         specifier: ^3.8.4
         version: 3.8.4(@types/hoist-non-react-statics@3.3.7(@types/react@19.2.2))(@types/node@24.10.0)(@types/react@19.2.2)(graphql@15.10.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -890,6 +893,11 @@ packages:
   astring@1.9.0:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
+
+  astro-decap-cms-oauth@0.5.1:
+    resolution: {integrity: sha512-dxIfwj+E5XuUCGhbTWVA0XRLK0qXDKvflC0Jy4n0H219RpGXcHCQ3lmwE8aNO2/R16dSRJ//xoBjkuqSpYK5CQ==}
+    peerDependencies:
+      astro: ^5.0.0
 
   astro@5.15.3:
     resolution: {integrity: sha512-wUO/isJrcUoduRoKacKB9jpO6TxTlPV1zw8UqQx39jSNY7z9IxusJAiib3AiNvqK+dCWhqXx+OnExCCwELmcUw==}
@@ -4346,6 +4354,10 @@ snapshots:
   array-move@4.0.0: {}
 
   astring@1.9.0: {}
+
+  astro-decap-cms-oauth@0.5.1(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)):
+    dependencies:
+      astro: 5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)
 
   astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3):
     dependencies:

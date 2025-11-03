@@ -2,8 +2,8 @@ backend:
   name: github
   repo: yunusemrebilik/astro-test
   branch: main
-  site_domain: astro-test-3jcw5et5n-yunus-emres-projects-80869c84.vercel.app
-  base_url: https://astro-test-3jcw5et5n-yunus-emres-projects-80869c84.vercel.app
+  site_domain: astro-test-jade-omega.vercel.app
+  base_url: https://astro-test-jade-omega.vercel.app
   auth_endpoint: oauth
 
 media_folder: "public/uploads"

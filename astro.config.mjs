@@ -6,8 +6,11 @@ import { defineConfig } from 'astro/config';
 
 import decapCmsOauth from 'astro-decap-cms-oauth';
 
+import vercel from '@astrojs/vercel';
+
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://example.com',
-    integrations: [mdx(), sitemap(), decapCmsOauth()],
+  site: 'https://example.com',
+  integrations: [mdx(), sitemap(), decapCmsOauth()],
+  adapter: vercel(),
 });
